@@ -4,7 +4,7 @@ $date = Get-Date -Format "yyyy-MM-dd"
 # Get computer/hostname
 $computerName = $env:COMPUTERNAME
 # Define output file paths (with computer name in filename)
-$basePath = "$env:OneDrive\Documents\Software\Scripts\Export-Path"
+$basePath = "$env:OneDrive\Documents\Export-Path"
 $outputFile = "$basePath\PATH_Backup_${computerName}_$date.txt"
 
 # Define max age for backup files (in days)
