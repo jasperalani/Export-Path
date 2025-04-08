@@ -10,7 +10,7 @@ For when you've deleted your system PATH variable accidentally one too many time
 
 ### Install:
 
-1. Download installer file from [here](https://raw.githubusercontent.com/jasperalani/Export-Path/refs/heads/main/Install-ExportPathUtil.ps1) and save the page as `Install-ExportPathUtil.ps1`
+1. Download installer file from [here](https://github.com/jasperalani/Export-Path/releases/download/v1.0/Install-ExportPathUtil.ps1) and save the page as `Install-ExportPathUtil.ps1`
 2. Open PowerShell as Administrator
 3. Navigate to downloads folder `cd "~\Downloads"`
 4. Run the installer script `powershell -ExecutionPolicy Bypass -File .\Install-ExportPathUtil.ps1`
